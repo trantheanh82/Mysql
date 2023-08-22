@@ -11,7 +11,7 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=TheAnhDark@412
     ports:
-      - '6603:3309'
+      - '6603:3306'
     volumes:
       - E:\Dockers\Mysql\db:/var/lib/mysql
       - E:\Dockers\Mysql\cnf.d:/etc/my.cnf.d
